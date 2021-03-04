@@ -1,0 +1,111 @@
+body {
+  background: #c1c8d81f; }
+
+#navber {
+  position: static;
+  top: 0px; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: aliceblue !important; }
+
+.navbar .nav-item {
+  padding-left: 1rem !important;
+  font-size: 18px; }
+
+.navbar button {
+  outline: none !important; }
+
+@media (max-width: 767px) {
+  .navbar {
+    padding-left: 0rem !important; } }
+
+#myCarousel .carousel-item {
+  height: 30rem !important; }
+
+#myCarousel .carousel-img-1 {
+  background: url("../img/pc.jpeg") no-repeat;
+  background-size: cover; }
+
+#myCarousel .carousel-img-2 {
+  background: url("../img/bg-one.jpg") no-repeat;
+  background-size: cover; }
+
+#myCarousel .carousel-img-3 {
+  background: url("../img/bg-two.jpeg") no-repeat;
+  background-size: cover; }
+
+#myCarousel .overlay {
+  background: rgba(39, 44, 70, 0.678) !important; }
+
+#marking .marking-icon {
+  font-size: 3rem !important; }
+
+.fix-img-one {
+  background: url(../img/bg1.jpeg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 18rem !important; }
+  .fix-img-one .dark-overlay {
+    background: rgba(0, 0, 0, 0.719);
+    min-height: 18rem !important; }
+
+.bg-img {
+  background: url(../img/people.jpeg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 10rem; }
+  .bg-img .overlay {
+    background: rgba(0, 0, 0, 0.719); }
+  .bg-img .overlay a {
+    font-size: 3rem; }
+
+#gallery h2 {
+  color: rebeccapurple !important; }
+
+#gallery #img {
+  min-height: 250px !important;
+  padding-bottom: 20px !important; }
+
+.footer-dark {
+  background: #070707; }
+
+.about {
+  background: url("../img/image3.jpeg") no-repeat;
+  background-size: cover;
+  min-height: 20rem !important; }
+  .about #about-bg-img {
+    margin-top: 3rem !important; }
+    .about #about-bg-img .about-overlay {
+      background-color: #000000a9;
+      padding-top: 2.5rem  !important;
+      padding-bottom: 6rem !important; }
+      .about #about-bg-img .about-overlay #about-card i {
+        font-size: 50px !important;
+        padding-bottom: 10px; }
+        @media (min-width: 767px) {
+          .about #about-bg-img .about-overlay #about-card i {
+            padding-bottom: 20px !important; } }
+
+#service-question {
+  background: #272c34; }
+
+@media (max-width: 767px) {
+  #price-card {
+    padding-bottom: 15px !important; } }
+
+#card-protfolio {
+  background: url("../img/image3.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 3.5rem; }
+
+#contact {
+  background: url("../img/image3.jpeg") no-repeat;
+  background-size: cover;
+  margin-top: 3.6rem;
+  min-height: 2rem !important; }
+  #contact .contact-overlay {
+    background-color: #000000a9;
+    padding-top: 2.5rem  !important;
+    padding-bottom: 2.5rem !important;
+    min-height: 2rem !important; }

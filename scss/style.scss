@@ -1,0 +1,146 @@
+$body-bg: #c1c8d81f;
+body {
+    background:$body-bg;
+}
+#navber{
+    position: static;
+    top: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: aliceblue !important;
+}
+.navbar{
+    .nav-item{
+        padding-left: 1rem !important;
+        font-size: 18px ;
+    }
+    button{
+        outline: none !important;
+    }
+    @media (max-width:767px) {
+        padding-left: 0rem !important;
+    }
+}
+#myCarousel{
+    .carousel-item{
+        height: 30rem !important;
+    }
+    .carousel-img-1{
+        background: url('../img/pc.jpeg') no-repeat;
+        background-size: cover;
+    }
+    .carousel-img-2{
+        background: url('../img/bg-one.jpg') no-repeat;
+        background-size: cover;
+    }
+    .carousel-img-3{
+        background: url('../img/bg-two.jpeg') no-repeat;
+        background-size: cover;
+    }
+    .overlay{
+        background: rgba(39, 44, 70, 0.678) !important;
+    }
+}
+#marking{
+    .marking-icon{
+        font-size: 3rem !important;
+    }
+    @media (max-width:767px) {
+        
+    }
+}
+.fix-img-one{
+    background: url(../img/bg1.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 18rem !important;
+    .dark-overlay{
+        background: rgba(0, 0, 0, 0.719);
+        min-height: 18rem !important;
+    }
+}
+// bg-video
+.bg-img{
+    background: url(../img/people.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 10rem;
+    .overlay{
+        background: rgba(0, 0, 0, 0.719);
+    }
+    .overlay a{
+        font-size: 3rem;
+    }
+}
+#gallery{
+  h2{
+      color: rebeccapurple !important;
+  }#img{
+    min-height: 250px !important;
+    padding-bottom: 20px !important;
+  }
+}
+// footer
+.footer-dark{
+    background:rgb(7, 7, 7);
+}
+//======== About Us Paje ========
+.about{
+    background: url('../img/image3.jpeg') no-repeat;
+    background-size: cover;
+    min-height: 20rem !important;
+    #about-bg-img{
+        margin-top: 3rem !important;
+        .about-overlay{
+            background-color: #000000a9;
+            padding-top: 2.5rem  !important;
+            padding-bottom: 6rem !important;
+            #about-card{
+                #icon{
+                    font-size: 80px !important;
+                    padding-bottom: 10px;
+                }
+                @media(min-width:767px){
+                    padding-bottom: 20px !important;
+                
+                }
+            }
+        }
+    
+    }
+}
+#service-question{
+    background: #272c34;
+}
+
+// service
+@media (max-width:767px) {
+    #price-card{
+        padding-bottom: 15px !important;
+    }
+}   
+// blog 
+#card-protfolio{
+    background: url('../img/image3.jpeg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 3.5rem;
+    // @media (max-width:767px) {
+    //     #blog-card{
+    //         padding: 5rem !important;
+    //     }
+    // }
+}
+// contact
+#contact{
+    background: url('../img/image3.jpeg') no-repeat;
+    background-size: cover;
+    margin-top: 3.6rem;
+    min-height: 2rem !important;
+    .contact-overlay{
+        background-color: #000000a9;
+        padding-top: 2.5rem  !important;
+        padding-bottom: 2.5rem !important;
+        min-height: 2rem !important;
+    }
+}
